@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar, NavbarBrand } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -23,7 +23,7 @@ export const NavigationBar = () => (
       <Navbar.Brand href="/">Code Life</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="m1-auto">
+        <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link href="/">Home</Nav.Link>
           </Nav.Item>
