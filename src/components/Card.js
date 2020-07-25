@@ -12,7 +12,7 @@ const Card = ({ username, url }) => {
           <h2>@{username}</h2>
         </div>
         <div className="ig-button">
-          <a href={`https://${url}`} target="_blank">
+          <a href={`https://${url}`} target="_blank" rel="noopener noreferrer">
             <button>Follow</button>
           </a>
         </div>
