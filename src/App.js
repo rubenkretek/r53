@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home } from "./Home";
+import { Home } from "./pages/Home";
 import { InstaMinis } from "./pages/InstaMinis";
-import { Contact } from "./Contact";
+import { Contact } from "./pages/Contact";
 import { NoMatch } from "./NoMatch";
 import { Layout } from "./components/Layout";
 import { NavigationBar } from "./components/NavigationBar";
